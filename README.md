@@ -6,4 +6,4 @@ DESKTOP VIEW
 
 MOBILE VIEW
 
-<img src="./demo//tabletView.PNG.png">
+<img src="./demo//tabletView.PNG">
