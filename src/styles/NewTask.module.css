@@ -1,0 +1,104 @@
+.backgroundBlur{
+    position: fixed;
+
+    height: 100vh;
+    width: 100vw;
+    background-color: rgba((0, 0, 0, 0.4));
+    backdrop-filter: blur(15px);
+    z-index: 100;
+
+
+}
+
+h3{
+    text-align: center;
+    color: white;
+}
+
+
+.NewTask{
+    position: absolute;
+    top: 0;
+    display: flex;
+    flex-direction: column;
+    /* box-sizing: border-box; */
+
+    /* padding: 0px 5px; */
+    background-color: #130C15;
+}
+
+
+.NewTask > *{
+
+    margin: 5px 0px;
+
+}
+
+
+
+
+.NewTaskBanner{    
+    width: 411px;
+    height: 149px;
+}
+
+.NewTaskBanner img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+label{
+    width: 100%;
+}
+
+label > *{
+    width: 100%;
+}
+
+
+#titleInput{
+    background-color: #2A212B;
+    color: white;
+    border: unset;
+    font-size: 1.5em;
+    padding: 10px 5px;
+}
+
+#descriptionInput{
+    background-color: #2A212B;
+    color: white;
+    border: unset;
+    font-size: 1.5em;
+    padding: 10px 5px;
+}
+
+
+.controls{
+
+    display: flex;
+    justify-content: space-between;
+    /* border: 1px solid blueviolet; */
+    background-color: #4377EB;
+}
+
+
+
+.controls button:nth-child(1){
+    border: unset;
+    border-radius: 10px;
+    font-size: 1.1rem;
+    padding: 9px;
+    font-weight: bold;
+    background-color: #4377EB;
+}
+
+.controls button:nth-child(2){
+    border: unset;
+    border-radius: 10px;
+    background-color: #000000;
+    color: #4377EB;
+    opacity: 80%;
+    font-size: 1.2em;
+    padding: 9px;
+}

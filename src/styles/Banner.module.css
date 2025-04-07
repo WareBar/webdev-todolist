@@ -1,0 +1,71 @@
+.Banner{
+    height: 379px;
+    width: 330px;
+    /* overflow: hidden; */
+    border-radius: 5px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+    display: flex;
+    /* justify-content: center; */
+    align-items: end;
+
+    
+}
+
+
+.details{
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+
+
+    padding: 20px;
+}
+
+
+.newTaskBtn{
+    background-color: #000000;
+    color: #4377EB;
+    opacity: 80%;
+    border-radius: 8px;
+    font-size: 1.2em;
+    padding: 9px;
+
+    width: fit-content;
+
+    border: unset;
+    transition: .2s;
+}
+
+.newTaskBtn:hover{
+    /* font-weight: bold; */
+    transform: scale(1.1);
+}
+
+.newTaskBtn:focus{
+    color: white;
+}
+
+header p{
+    color: white;
+    font-size: 1.1em;
+}
+
+header h2{
+    font-size: 2.1em;
+}
+
+@media screen and (max-width: 768px) {
+    .Banner{
+        width: 100%;
+    }
+}
+
+
+/* @media screen and (max-width: 425px) {
+    .Banner{
+        width: 100%;
+    }
+} */
